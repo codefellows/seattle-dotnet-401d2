@@ -26,17 +26,19 @@
 * Why do we need it?
   
  #### Try
-	 ```csharp
+ 
+ ```csharp
 		string number = "twenty";
 		try
 		{
 			int twenty = Convert.ToInt32(number); //Error
 		}
-	```
+```
 
 #### Catch
-	- Here is an example of a catch statement:
-	```csharp
+- Here is an example of a catch statement:
+	
+```csharp
 	catch(InvalidCastException e)
 	{
 		Console.WriteLine(e);
@@ -50,26 +52,23 @@
 		 // Perform some action here, and then throw a new exception.  
 		 throw new YourCustomException("Put your error message here.", e);  
 		} 
-	```
 
-    ```csharp
     catch (Exception e)
     {
         //Do something with e here
     }
-    ```
 
-    ```csharp
     catch (WebException ex)
     {
        //code specifically for a WebException
     }
-    ```
+ ```
 
 #### Finally
-    - Examples of the Finally statement
-    - The finally statement executes regardless if the catch was hit or not
-    ```csharp
+- Examples of the Finally statement
+- The finally statement executes regardless if the catch was hit or not
+
+```csharp
     public static void Main()
     {
         int[] array1 = {0, 0};
@@ -88,7 +87,7 @@
             Console.WriteLine("This statement is always executed.");
         }
     }
-    ```
+```
 #### Callstack
 - What is the Callstack?
 - Exception Handling outside of methods
@@ -102,6 +101,8 @@ Looks in MethodB() -> No catch in B either <br />
 Looks in MethodA() -> No catch found <br />
 Looks in Main() -> No catch <br />
 Program Terminates. 
+
+```
 
 ## **Setting Up a Debugger:**
 - Why do you need a debugger
