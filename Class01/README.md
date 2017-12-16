@@ -118,6 +118,7 @@ Program Terminates.
    - 15 min rule
    - Take a deep breath, step away, break it down
    - documentation
+   - Whiteboard/plan out the problem
    - look at the lecture
    - Online Research
    - ask a TA
