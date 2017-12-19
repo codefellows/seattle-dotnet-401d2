@@ -37,6 +37,7 @@
 # Assignments
 
 ## Readings
+- (NEW)[Code Katas](http://www.peterprovost.org/blog/2012/05/02/kata-the-only-way-to-learn-tdd/)
 - [XUnit Documentation](http://xunit.github.io/#documentation)
 - [Art of Readme](https://github.com/noffle/art-of-readme)
 - [ReadMe Best Practices](https://github.com/jehna/readme-best-practices)
