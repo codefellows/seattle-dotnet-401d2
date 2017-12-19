@@ -43,8 +43,6 @@
 
 ## Lab
 - (2) Code Katas
-	- Supermarket Challenge
-	- War Card Game Challenge
 
 - Stretch Goal - Additonal Katas
 
