@@ -50,7 +50,9 @@ Bunny b2 = new Bunny ("Bo")     { LikesCarrots=true, LikesHumans=false };
         1. A property is declared like a field, but with a get/set block added
         1. A `get` property accessor is used to return the property value, and a `set` property accessor is used to assign a new value.
         2. The value keyword is used to define the value being assigned by the `set` accessor.
-        3. Properties can be read-write (they have both a `get` and a `set` accessor), read-only (they have a `get` accessor but no `set` accessor), or write-only (they have a `set` accessor, but no `get` accessor). Write-only properties are rare and are most commonly used to restrict access to sensitive data.
+        3. Properties can be read-write (they have both a `get` and a `set` accessor), read-only 
+		(they have a `get` accessor but no `set` accessor), or write-only (they have a `set` accessor, but no `get` accessor). 
+		Write-only properties are rare and are most commonly used to restrict access to sensitive data.
     
         ```csharp
         class Person
