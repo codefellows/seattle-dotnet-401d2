@@ -185,5 +185,11 @@ Find the middle of a linked list
   - Spend no more than 90 minutes on this challenge
   - Submit a link to your repo PR in canvas
 
-  ## Weekend Assignment
+## Weekend Assignment
+### Read
+- [Big O](http://computationaltales.blogspot.com/2011/04/understanding-big-o-notation-and.html)
+- [Beginners Guide to Big O](https://rob-bell.net/2009/06/a-beginners-guide-to-big-o-notation/)
+- [Podcast - Season1,Episode6 : Friendly Intro to Big O Notatation](https://www.codenewbie.org/basecs)
+
+### Code
 - Complete a total of 4 Code War problems. 2 of the problems should be a 6kyu. 2 of the problems should be 5kyu. problems should be completed in C#.
