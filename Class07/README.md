@@ -176,7 +176,7 @@ You use a `yield break` statement to end an iteration
      
 ## Coding Challenge
 Find the middle of a linked list
-- Find Middle of Linked List
+- Delete a Node in a Singly Link List
 
 -Using your "data-structures" repository
   - add a folder and label it `Linked Lists`
