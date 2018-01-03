@@ -104,7 +104,7 @@
 1. C# 7.0 In a Nustshell - Chapter 8: LINQ Queries
 
 ## Coding Challenge
-- Find Nth Element from end in Linked List
+- Find the middle element in a linked list
 
 - Using your "data-structures" repository
   - add a folder and label it `Linked Lists`
