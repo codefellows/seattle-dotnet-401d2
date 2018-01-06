@@ -46,3 +46,9 @@ If you try and visit the Movies page, it will SQL error because of the new field
 Add-Migration Rating
 Update-Database
 ```
+
+# Assignments
+
+## Readings
+1. [Entity Framework 6](https://docs.microsoft.com/en-us/aspnet/core/data/entity-framework-6)
+2. [Models](https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-mvc-app/adding-model)

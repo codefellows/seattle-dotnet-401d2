@@ -5,6 +5,9 @@
 # Assignments
 
 ## Readings
+1. [Deploymnet](https://docs.microsoft.com/en-us/aspnet/core/tutorials/publish-to-azure-webapp-using-vs)
+2. [Deployment p2](https://docs.microsoft.com/en-us/azure/app-service/app-service-web-get-started-dotnet)
+3. [Dependency Injection](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/dependency-injection)
      
 ## Coding Challenge
 Implement a stack using Linked Lists <br />
