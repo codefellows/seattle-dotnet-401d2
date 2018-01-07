@@ -1,4 +1,4 @@
-# ![cf](http://i.imgur.com/7v5ASc8.png) Lecture 14 : Dependency Injection / Azure Deployment
+# ![cf](http://i.imgur.com/7v5ASc8.png) Lecture 14 : Azure Deployment
 
 
 
