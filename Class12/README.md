@@ -183,7 +183,6 @@ return View();
 
 		```
 
-
 #### Dynamic Views
 	1. Views that do not declare a model type but have a model instance passed to them can be referenced this instance dynamically/
 	2. Example: An action passes an instance of Address, but the view doesn't declare @model, the view can still show:
@@ -238,6 +237,7 @@ return View();
      
 ## Coding Challenge
 Implement a Stack using Linked Lists <br />
+**stretch (5 pts)** Implement a queue using a link list
 
 -Using your "data-structures" repository
   - add a folder and label it `Stacks and Queues`
