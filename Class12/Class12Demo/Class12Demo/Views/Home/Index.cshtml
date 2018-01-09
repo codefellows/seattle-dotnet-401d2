@@ -1,0 +1,30 @@
+﻿@*@model Class12Demo.Models.Game*@
+
+<link href="style.css" rel="stylesheet">
+
+<h1>Welcome to my Game!</h1>
+
+
+@*@foreach (var item in Model)
+{
+    <p>@item.Name <br />
+    @item.Number</p>
+}*@
+
+<h2>@ViewData["Name"]</h2>
+
+<h3>@ViewBag.My Name</h3>
+
+@* Taghelpers
+    This will send a post requrest to the HttpPost Index action in te Home controller*@
+<form method="post">
+    @* "Name" and "Cat" matches the parameter for the HttpPost index action *@
+    <label for="Name">Name</label>
+    <input maxlength="10" name="Name" /> <br />
+
+    <label for="Cats">Cat Name</label>
+    <input maxlength="10" name="Cats" /> <br />
+
+    <button type="submit">Go!</button>
+
+</form>
