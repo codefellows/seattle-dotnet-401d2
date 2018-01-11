@@ -1,0 +1,21 @@
+﻿@model Class14Demo.Models.Reservation
+<link href="~/Style.css" rel="stylesheet" />
+
+<h1>Welcome to the Restaurant of Everything!</h1>
+
+<p>Please fill out the following form to make a reservation</p>
+
+<div class="form">
+    <form method="post">
+        <label for="Name">Name</label>
+        <input maxlength="20" name="Name" />
+
+        <label for="Time">Date and Time</label>
+        <input type="datetime-local" name="Time" />
+
+        <label for="PartySize">Party Size</label>
+        <input maxlength="2" name="PartySize" />
+
+        <button type="submit">Make Reservation</button>
+    </form>
+</div>

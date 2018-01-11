@@ -1,0 +1,29 @@
+﻿@model IEnumerable<Class14Demo.Models.Reservation>
+
+<h1>My Reservations</h1>
+
+<table>
+    <thead>ID</thead>
+    <thead>Name</thead>
+    <thead>Party Size</thead>
+    <thead>Time</thead>
+
+    @foreach(var i in Model)
+    {
+    <tr>
+        <td>
+            @i.ID
+        </td>
+        <td>
+            @i.Name
+        </td>
+        <td>@i.PartySize</td>
+        <td>@i.Time</td>
+        <td><a asp-action="Update" asp-controller="Home" asp-route-id="@i.ID">Update</a> </td>
+        <td><a asp-action="Delete" asp-controller="Home" asp-route-id="@i.ID">Delete</a> </td>
+
+    </tr>
+
+    }
+
+</table>

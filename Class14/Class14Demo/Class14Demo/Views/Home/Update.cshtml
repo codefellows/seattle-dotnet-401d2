@@ -1,0 +1,17 @@
+﻿@model Class14Demo.Models.Reservation
+
+
+    <div class="form">
+        <form method="post">
+            <label for="Name">Name</label>
+            <input maxlength="20" name="Name" value="@Model.Name" />
+
+            <label asp-for="Time" class="control-label"></label>
+            <input asp-for="Time" class="form-control" />
+
+            <label for="PartySize">Party Size</label>
+            <input maxlength="2" value="@Model.PartySize" name="PartySize" />
+
+            <button type="submit">Save Rezzie</button>
+        </form>
+    </div>
