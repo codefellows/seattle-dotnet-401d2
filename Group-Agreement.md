@@ -30,7 +30,7 @@ Next up: time to get set up in GitHub.
 - Invite all team members to the Organizations.
 - In that organization, create a repo for your project.
 - In the README.md, add your group members' names, your project topic, and your project pitch.
-- Add a `group-agreement.md`, with the text of your group agreement.
+- Add a `group-agreement.md`, with the text of your group agreement. After your group agreement has been approved, transfer it to this document
 - Have one team member send the Github org link with Amanda.
 
 ### Review with the instructional team
