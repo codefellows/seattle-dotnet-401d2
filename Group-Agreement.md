@@ -23,7 +23,6 @@ Now that you've had a chance to talk some as a group, step away from the project
   4. Git process: What is your Git flow? How many people must review a PR? Who merges PRs?
   5.  Any thing else you feel is important: expectations around work times, standup times, taking breaks/seeking help when you're stuck, etc.
   - Invite Amanda to the Google Document 
-  - Once approved, the instructional team will direct you on next steps....
   
 ### GitHub setup
 Next up: time to get set up in GitHub.
