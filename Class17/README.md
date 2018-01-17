@@ -2,6 +2,15 @@
 
 ## Introduction to Web APIs
 
+## How the Internet Works
+
+### Request
+1. Headers
+2. Domain Location
+3. HTML Body
+
+### Response
+
 ## What is a WEB API
 
 ## REST
