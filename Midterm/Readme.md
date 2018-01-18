@@ -34,15 +34,13 @@
 		- Validation
 	- Views 
 		- Razor Syntax
-		- Shared Layouts
-		- Partials
+		- Layouts
 		- Views for individual Actions
 		- CSS/HTML
 		- Tag- Helpers
 		- User Input and Validation
 	- Controllers
 		- CRUD principle actions
-		- GET and POST
 		- Attribute Routing
 		- Dependency Injection
 		- Constructors
