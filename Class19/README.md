@@ -11,13 +11,16 @@
 In the animal game, the user thinks of an animal, and the program's simple artificial intelligence tries to guess what it is. The program is a learning system,
 so over time it gets better at guesing the user's animal. 
 
-The program stores the information in a tree, each internal node holds a yes or no question that guides the program down teh left or right side of a  tree.
+The program stores the information in a tree, each internal node holds a yes or no question that guides the program down the left or right side of a  tree.
 Each leaf node represents an animal. 
 
 The program asks questions at each node and follows the appropriate branch until it reaches a leaf node where it guesses the node's animal. 
 
-If the program is wrong, it asks the user to type a question it can ask to differentiate between the animal it guessed and the correct answer. It adds a new
-internal node contianing the question and give the node leavse holding the correct and incorrect animals. 
+If the program is wrong, it asks:
+1. What the animal was
+2. The type a question to differentiate between the animal it guessed and the correct answer. 
+
+It adds a new internal node contianing the question and give the node leaves holding the correct and incorrect animals. 
 
 ### Example: 1 (Correct Guess)
 1. Is it a mammel? **No**
