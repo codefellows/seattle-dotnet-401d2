@@ -27,7 +27,7 @@
 
 ## Coding Challenge
 
-TBD
+Switch two leafs in a tree (switch the whole node, not just the values)
 
 -Using your "data-structures" repository
   - add a folder and label it `Trees`
