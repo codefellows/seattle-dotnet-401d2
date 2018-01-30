@@ -19,7 +19,6 @@ What does API mean? - Application Program Interface
 3. PUT - "Take a resource and put it somewhere" // If it doesn't exist, create it, if it does update it, should be repeatable w/o side effects 
 4. DELETE - Remove a resource
 
-
 ### Status Codes 
 	- 200 - Ok
 	- 400 - Bad Request (Client Issue/Blame the client)
