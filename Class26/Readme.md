@@ -23,7 +23,7 @@
 
 ## Coding Challenge
 
-Rebalance a Tree
+Find the minimum and maximum in Binary Tree (unsorted)
 
 -Using your "data-structures" repository
   - add a folder and label it `Trees`
