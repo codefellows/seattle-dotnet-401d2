@@ -19,7 +19,6 @@
 - [Bootstrap](https://docs.microsoft.com/en-us/aspnet/core/client-side/bootstrap)
 - [Official Site Bootstrap](http://getbootstrap.com/)
 - [Testing Razor Pages](https://docs.microsoft.com/en-us/aspnet/core/testing/razor-pages-testing)
-	- Hint: Maybe you should follow along!
 
 ## Lab
 - Create a Razor Page applicaiton
