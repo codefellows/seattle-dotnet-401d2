@@ -1,0 +1,30 @@
+﻿@page "{rest}"
+
+@using Week6Demo.Models
+
+@inject IRestaurantService RestaurantService
+
+@{
+    Layout = "_Layout";
+    var id = int.Parse((string)RouteData.Values["rest"]);
+    var restaurant = await RestaurantService.FindAsync(id);
+}
+
+<h2>
+    T his is our Restaurant page!
+</h2>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-8">
+            <div class="col-md-12">
+                <span>
+                    @restaurant.Description
+                </span>
+                <hr />
+
+
+            </div>
+        </div>
+    </div>
+</div>

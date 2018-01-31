@@ -1,0 +1,28 @@
+﻿@page
+@using Week6Demo.Models
+
+@inject IRestaurantService RestaurantService
+
+@{
+    Layout = "_Layout";
+    var restaurants = await RestaurantService.GetAllAsync();
+}
+
+
+<div class="container">
+    <div class="row">
+        @foreach (var rest in restaurants)
+        {
+            <div class="col-md-4">
+
+
+                <img class="img-thumbnail" src="@rest.ImageUrl" />
+
+
+            </div>
+            <h3><a asp-page="/Restaurant" asp-route-id="@rest.ID">@rest.Name</a> </h3>
+        }
+    </div>
+</div>
+
+
