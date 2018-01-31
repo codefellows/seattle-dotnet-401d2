@@ -19,7 +19,6 @@
 - [Bootstrap](https://docs.microsoft.com/en-us/aspnet/core/client-side/bootstrap)
 - [Official Site Bootstrap](http://getbootstrap.com/)
 - [Testing Razor Pages](https://docs.microsoft.com/en-us/aspnet/core/testing/razor-pages-testing)
-	- Hint: Maybe you should follow along!
 
 ## Lab
 - Create a Razor Page applicaiton
@@ -28,7 +27,7 @@
 
 ## Coding Challenge
 
-TBD
+Switch two leafs in a tree (switch the whole node, not just the values)
 
 -Using your "data-structures" repository
   - add a folder and label it `Trees`
