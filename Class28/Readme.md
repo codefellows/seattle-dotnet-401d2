@@ -17,8 +17,10 @@
 - Do some more resarch on something you've struggled with this week. Share in your discussion what you've learned
 
 ## Coding Challenge
+- Given a sorted array, convert it to a Binary Tree. 
+- Now -> Conver it to a BST
 
-Delete a Node
+Sorted Array:[2,3,4,8,15,16,21,23,42,50,55,90,105,150]
 
 -Using your "data-structures" repository
   - add a folder and label it `Trees`
