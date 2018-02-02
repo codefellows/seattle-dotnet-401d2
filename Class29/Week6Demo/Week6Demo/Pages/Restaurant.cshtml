@@ -1,0 +1,46 @@
+﻿@page "{id}"
+
+
+@{
+    Layout = "_Layout";
+    var id = int.Parse((string)RouteData.Values["id"]);
+    var restaurant = await RestaurantService.FindAsync(id);
+}
+
+<h2>
+    This is our Restaurant page!
+</h2>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-8">
+            <div class="col-md-12">
+                <span>
+                    @restaurant.Description
+                </span>
+                <hr />
+
+
+            </div>
+        </div>
+        <div class="col-md-4">
+            @if (restaurant.Image != null)
+            {
+                <img class="img-fluid img-thumbnail" src="@restaurant.GetInlineImageSrc()" />
+            }
+            else
+            {
+                <img class="img-fluid img-thumbnail" src="@restaurant.ImageUrl" />
+
+            }
+
+        </div>
+    </div>
+
+    @if (User.Identity.IsAuthenticated)
+    {
+        <a asp-page="/Admin/AddEditRestaurant" class="btn btn-primary" asp-route-id="@restaurant.ID">Edit @restaurant.Name</a>
+
+    }
+
+</div>

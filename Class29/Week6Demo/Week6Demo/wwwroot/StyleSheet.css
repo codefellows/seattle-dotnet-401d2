@@ -1,0 +1,108 @@
+﻿@import 'bootstrap.css';
+@import url('http://fonts.googleapis.com/css?family=Source+Sans+Pro%3Aregular%2Citalic%2C700%2C200%2C300%2C300italic%2C900%7CRaleway%3Aregular%2C700%2C200%2C300%2C900%26subset%3Dlatin%2C&ver=2.1.1');
+
+body {
+    color: #333;
+    font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    line-height: 1.625;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Raleway","Helvetica Neue",sans-serif;
+}
+
+h2 {
+    margin-top: 10px;
+}
+
+a {
+    color: #8B0000;
+}
+
+
+
+    a:hover {
+        color: #111;
+    }
+
+
+header {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.navbar {
+    border-radius: 0;
+    border-bottom: 1px solid #777;
+    border-top: 1px solid #777;
+    min-height: inherit;
+}
+
+    .navbar, .navbar .btn-link {
+        font-weight: 400;
+        font-family: "Source Sans Pro","Helvetica Neue",sans-serif;
+        text-transform: uppercase;
+    }
+
+        .navbar form span {
+            text-transform: none;
+        }
+
+        .navbar .btn-link {
+            font-weight: 600;
+        }
+
+        .navbar a, .navbar .btn-link {
+            color: #333;
+            letter-spacing: 2px;
+            font-size: 12px;
+        }
+
+            .navbar a.active {
+                font-weight: 800;
+            }
+
+        .navbar .nav {
+            width: 100%;
+            margin: auto;
+        }
+
+            .navbar .nav li {
+                display: table-cell;
+                width: 1%;
+                float: none;
+            }
+
+.restaurants .restaurant {
+    height: 20em;
+    overflow: hidden;
+    text-align: center;
+}
+
+
+
+.btn.add-restaurant {
+    float: right;
+    margin-top: -50px;
+    margin-right: 15px;
+}
+
+.directions li {
+    margin-bottom: 15px;
+}
+
+
+.signin {
+    margin-top: -35px;
+    float: right;
+}
+
+.panel{
+    color: black;
+
+}
+
+.checked {
+    color: #8B0000;
+}

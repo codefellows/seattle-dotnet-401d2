@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link rel="stylesheet" href="~/StyleSheet.css" />
+    <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.css" />
+
+    @if (!User.Identity.IsAuthenticated)
+    {
+        <a href="/Account/Login">Login</a>
+
+    }
+    else
+    {
+        <form method="post" asp-page="/Account/Login" asp-page-handler="Logout">
+            <div class="input-group">
+                <span>@User.Identity.Name</span>
+                <button type="submit" class="panel btn btn-link">Logout</button>
+            </div>
+        </form>
+
+    }
+</head>
+<body>
+    <div class="container">
+        @RenderBody()
+    </div>
+</body>
+</html>
