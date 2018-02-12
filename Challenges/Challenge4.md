@@ -1,4 +1,4 @@
-# Challenge 4
+#Challenge 4
 
  *Without using Visual Studio* - Writeout the output of this method.
 
@@ -10,6 +10,14 @@
 5. Under the code snippet provide the output
 
 ```csharp
+
+       static void Main(string[] args)
+       {
+       int[] myArray = new int{4,-8,15,-16, 23, 100, 42, 5,0,-5}
+        DebugChallenge(myArray);
+        
+       }
+
         static void DebugChallenge(int[] myArray)
         {
             int temp = 0;
