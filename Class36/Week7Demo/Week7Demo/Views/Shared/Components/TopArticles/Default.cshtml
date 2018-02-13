@@ -1,0 +1,8 @@
+﻿@model IEnumerable<Week7Demo.Models.Page>
+
+@foreach (var item in Model)
+{
+    <p>@item.Title</p>
+    <a href="/Page/@item.ID">@item.Title</a>
+
+}
