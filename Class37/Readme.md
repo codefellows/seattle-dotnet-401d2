@@ -2,9 +2,6 @@
 
 # Assignments
 
-## Readings
-- [View Components](https://docs.microsoft.com/en-us/aspnet/core/mvc/views/view-components)
-
 ## Coding Challenge
 
 ### Insertion Sort
