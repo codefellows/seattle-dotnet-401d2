@@ -4,7 +4,7 @@
 
 ## Readings
 - [OWASP](https://www.owasp.org/index.php/.NET_Security_Cheat_Sheet#ASP.NET_MVC_Guidance)
-- [](https://dotnetcore.gaprogman.com/2017/07/20/net-core-middleware-owasp-headers-part-1/)
+- [OWASP Headers 1](https://dotnetcore.gaprogman.com/2017/07/20/net-core-middleware-owasp-headers-part-1/)
 
 ## Coding Challenge
 
