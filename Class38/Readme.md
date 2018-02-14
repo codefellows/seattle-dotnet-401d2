@@ -9,8 +9,8 @@
 ## Coding Challenge
 
 ### Quick Sort
-Quicksort can be done Recursively by setting a pivot or a partition and comparing each number against the pivot. 
-Take a look at the excessive amount of visual algo demonstrations to visually see what it looks like. 
+Quicksort can be done Recursively by setting a pivot or a partition and comparing each number against the pivot and placing it to the left or right of the pivot. 
+Take a look at the visual algo demonstrations to visually see what it looks like, in addition to the Wiki 
 <br />
 **Try to figure this sorting algo out yourself before turning to the code located in the wiki**
 
