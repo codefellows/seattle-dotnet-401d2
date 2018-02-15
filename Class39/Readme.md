@@ -5,6 +5,7 @@
 ## Readings
 - [HTTPS in Core](http://www.blinkingcaret.com/2017/03/01/https-asp-net-core/)
 - [SSL in .NET](http://www.c-sharpcorner.com/UploadFile/ajyadav123/secure-socket-layer-in-net/)
+- [Diffie Helman Key Exchange](https://www.wikiwand.com/en/Diffie–Hellman_key_exchange)
 
 ## Coding Challenge
 
