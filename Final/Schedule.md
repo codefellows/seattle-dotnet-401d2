@@ -11,7 +11,7 @@
 - Database schema
 
 ### Monday: <br />  
-**10:00am**: Morning Standup <br />
+**11:00am**: Morning Standup <br />
 **4:00pm**: Evening Demo <br />
 
 <u>Milestones</u><br />
